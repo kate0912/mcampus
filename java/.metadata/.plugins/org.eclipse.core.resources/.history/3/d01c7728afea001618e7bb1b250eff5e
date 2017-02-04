@@ -1,0 +1,17 @@
+package emp;
+
+public class Secretary extends Employee{
+	public Secretary() {
+		super();
+	}
+	
+	public Secretary(String name, int number, String department, int salary) {
+		super(name, number, department, salary);
+	}
+
+	@Override
+	public double tax() {
+		
+		return 0;
+	}
+}

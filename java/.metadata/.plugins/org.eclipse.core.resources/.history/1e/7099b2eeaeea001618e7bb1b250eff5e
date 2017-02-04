@@ -1,0 +1,11 @@
+package emp;
+
+public class Secretary extends Employee{
+	public Secretary() {
+		
+	}
+	
+	public Secretary(String name, int number, String department, int salary) {
+
+	}
+}
